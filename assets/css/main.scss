@@ -25,7 +25,6 @@ body {
     }
 
     .home-section {
-
         .content-rt {
             width: 100% !important;
         }
@@ -35,15 +34,13 @@ body {
         }
     }
 
-    footer{
-
-        .social_link{
+    footer {
+        .social_link {
             display: grid !important;
 
             i:not(&last-child) {
                 margin-bottom: 20px !important;
             }
-            
         }
     }
 }
@@ -290,6 +287,14 @@ header {
         }
     }
 
+    img {
+
+        &:hover {
+            opacity: 0.7;
+            transition: .3s;
+        }
+    }
+
     .link_a {
         color: white;
         text-decoration: none;
@@ -304,15 +309,14 @@ header {
             width: 100%;
             left: 0;
             height: 2px;
-
         }
+
         &:hover:before {
             width: 0;
             left: auto;
             right: 0;
             bottom: -5px;
             transition: all 0.35s cubic-bezier(0.694, 0.048, 0.335, 1);
-
         }
     }
 }

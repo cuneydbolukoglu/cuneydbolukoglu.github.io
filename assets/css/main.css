@@ -313,6 +313,12 @@ header nav .nav-menu a:hover:before {
   margin-right: 10px;
 }
 
+.about img:hover {
+  opacity: 0.7;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .about .link_a {
   color: white;
   text-decoration: none;

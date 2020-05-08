@@ -11,10 +11,4 @@ $(document).ready(function () {
         scrollHorizontally: true
     });
 
-    var image = $(".img-animate")
-
-    image.hover(function(){
-        image.fadeOut().fadeIn();
-    });
-    
 });
