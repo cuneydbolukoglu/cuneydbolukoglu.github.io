@@ -288,10 +288,11 @@ header {
     }
 
     img {
+        transition: 1s;
 
         &:hover {
             opacity: 0.7;
-            transition: .3s;
+            transition: 1s;
         }
     }
 
