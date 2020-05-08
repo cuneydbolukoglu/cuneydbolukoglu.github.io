@@ -298,11 +298,9 @@ header nav .nav-menu a:hover:before {
   padding: 0px 15px;
 }
 
-.about img {
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  text-align: center;
+.about svg {
+  bottom: 4px;
+  position: relative;
 }
 
 .about .social_link i {
@@ -316,6 +314,10 @@ header nav .nav-menu a:hover:before {
 .about img {
   -webkit-transition: 1s;
   transition: 1s;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
 }
 
 .about img:hover {
