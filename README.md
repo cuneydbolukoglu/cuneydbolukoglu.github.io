@@ -1,4 +1,6 @@
 ## cuneydbolukoglu.github.io
 
-Portfolio
-- http://cuneydbolukoglu.github.io
+Portfolio Repo
+```js
+http://cuneydbolukoglu.github.io
+```
