@@ -112,7 +112,8 @@
         position: relative!important;
         width: 100%!important;
         float: none!important;
-        padding: 0 15px!important
+        padding: 0 15px!important;
+        top: 100px!important
     }
     .about .about-right h5 {
         font-size: 17px!important
@@ -553,4 +554,4 @@ footer a i {
 }
 
 
-/*# sourceMappingURL=main.6081f3e8.chunk.css.map */
+/*# sourceMappingURL=main.d043920d.chunk.css.map */
